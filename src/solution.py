@@ -25,8 +25,8 @@ for i in range(5):
 
 max_num, min_num = find_maximum_minimum(numbers)
 if max_num is not None and min_num is not None:
-    print(f"Maximum number: {max_num}")
-    print(f"Minimum number: {min_num}")
+    print(f"The Maximum number is: {max_num}")
+    print(f"The Minimum number is: {min_num}")
 else:
     print("Oops! The list is empty.")
 
