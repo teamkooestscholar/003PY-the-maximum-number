@@ -1,6 +1,6 @@
 def find_maximum_and_minimum(numbers):
     if len(numbers) == 0:
-        return None, None  # Return None for both max and min for an empty list
+        return None, None  
 
     max_number = numbers[0]
     min_number = numbers[0]
@@ -13,7 +13,7 @@ def find_maximum_and_minimum(numbers):
 
     return max_number, min_number
 
-# Example usage:
+
 list_of_numbers = [1, 2, 3, 4, 5, 6]
 max_value, min_value = find_maximum_and_minimum(list_of_numbers)
 if max_value is not None and min_value is not None:
