@@ -7,7 +7,6 @@ def find_max_and_min(numbers):
     
     return maximum, minimum
 
-# Example usage:
 numbers = [12, 45, 67, 23, 9]
 result = find_max_and_min(numbers)
 print(f"Maximum: {result[0]}, Minimum: {result[1]}")
