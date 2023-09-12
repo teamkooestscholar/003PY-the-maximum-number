@@ -16,7 +16,7 @@ def find_maxmin_from_user_input():
         try:
             numbers.append(int(num))
         except ValueError:
-            print("Invalid input! Please enter only integers separated by spaces.")
+            print("Invalid input! Please only use integers in the input. ")
             return None, None
 
     maxi, mini = find_maximum_and_minimum(numbers)
