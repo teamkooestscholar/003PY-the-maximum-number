@@ -13,3 +13,4 @@ def find_maximum_and_minimum(numbers):
 
 numbers = [56,6,7,13,24,12,51,34,134,5]
 print(find_maximum_and_minimum(numbers))
+
