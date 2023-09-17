@@ -1,3 +1,4 @@
+#Change Perms
 def WHERE_MINMAX(li_No): #nums_list #max_num #min_num
     if len(li_No) == 0:
         return "No numbers provided. Therefore nothing is made"  # When empty list occurs
